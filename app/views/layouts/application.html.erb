@@ -13,6 +13,12 @@
       <main>
         <p id="notice"><%= notice %></p>
       </main>
-    <%= render 'layouts/footer' %>
+     <main class="mb-auto">
+    
+    <%= yield %>
+    </main>
   </body>
+  <footer>
+    <%= render 'layouts/footer' %>
+  </footer>
 </html>
